@@ -9,14 +9,14 @@ export async function getServerSideProps(context) {
 
 	let Link = await prisma.link.findFirst({
 		where: {
-			id: context.query.url,
+			customUrl: context.query.url,
 		},
 	});
 
 	if (Link === null) {
 		Link = await prisma.link.findFirst({
 			where: {
-				customUrl: context.query.url,
+				id: context.query.url,
 			},
 		});
 	}
