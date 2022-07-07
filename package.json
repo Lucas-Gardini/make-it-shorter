@@ -1,18 +1,27 @@
 {
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.1.4",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
-  },
-  "devDependencies": {
-    "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4"
-  }
+	"name": "make-it-shorter",
+	"version": "0.0.52",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@nextui-org/react": "^1.0.0-beta.9",
+		"@prisma/client": "^4.0.0",
+		"next": "12.1.3",
+		"react": "^17",
+		"react-dom": "^17",
+		"react-is": "^17.0.2"
+	},
+	"devDependencies": {
+		"@types/node": "^18.0.3",
+		"@types/react": "17",
+		"bun-framework-next": "^12",
+		"prisma": "^4.0.0",
+		"react-refresh": "0.10.0",
+		"typescript": "latest"
+	}
 }
